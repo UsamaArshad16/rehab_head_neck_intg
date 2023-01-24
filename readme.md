@@ -13,8 +13,9 @@
    ```rosrun rosserial_python serial_node.py tcp 11411```
 4. Run the following node for publishing the pan and tilt sample message to respective topic: 
    
-   ```rosrun rehab_head_neck_intg pan_tilt_int```
-5. Type '1' as input to publish the messages to the respective topics each time you write '1'.
+   ```roslaunch rehab_head_neck_intg pan_tilt.launch```
+   
+   You can input number to several pan and tilt motions. And you can set parameters to tune any gesture.
    
 
     
@@ -35,12 +36,3 @@
     Topic Type: 
     
     std_msgs::Int32MultiArray
-
-
-
-<br></br>
-
-## Contact
-**Author:** Ali Ahmad  <br/>
-**Designation:** Senior Robotics Engineer <br/>
-**Email:** ali.ahmad@xavor.com <br/>
